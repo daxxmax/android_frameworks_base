@@ -2238,6 +2238,12 @@ public final class Settings {
         public static final String LOCKSCREEN_VIBRATE_ENABLED = "lockscreen.vibrate_enabled";
 
         /**
+         * Whether the screen will be locked if a call ends and the screen is off.
+         * @hide
+         */
+        public static final String LOCKSCREEN_IF_CALL_ENDS_WITH_SCREENOFF = "lockscreen_if_call_ends_with_screenoff";
+
+        /**
          * Stores values for custom lockscreen targets
          * @hide
          */
@@ -2342,12 +2348,6 @@ public final class Settings {
         public static final String STATUSBAR_TOGGLES_ENABLE = "statusbar_toggles_enable";
 
         /**
-         * Button-like toggles style (instead of switches)
-         * @hide
-         */
-        public static final String STATUSBAR_TOGGLES_USE_BUTTONS = "statusbar_toggles_use_buttons";
-
-        /**
          * Toggles to use on statusbar
          * @hide
          */
@@ -2360,16 +2360,22 @@ public final class Settings {
         public static final String STATUSBAR_TOGGLES_STYLE = "statusbar_toggles_style";
 
         /**
+         * Allows to switch between the different toggle layouts
+         * @hide
+         */
+        public static final String STATUSBAR_TOGGLES_USE_BUTTONS = "statusbar_toggles_use_buttons";
+
+        /**
          * Whether to show brightness on toggles view
          * @hide
          */
         public static final String STATUSBAR_TOGGLES_SHOW_BRIGHTNESS = "statusbar_toggles_show_brightness";
 
         /**
-         * Statusbar layout
+         * Disable scrolling on non-switched toggle layouts
          * @hide
          */
-        public static final String STATUS_BAR_LAYOUT = "statusbar_layout";
+        public static final String STATUSBAR_TOGGLES_DISABLE_SCROLL = "statusbar_toggles_disable_scroll";
 
         /**
          * Navigation bar, whether to show or hide
@@ -2398,6 +2404,7 @@ public final class Settings {
         public static final String NAV_BUTTONS = "nav_buttons";
 
         /**
+<<<<<<< HEAD
          * Enable Menu key
          *
          * @hide
@@ -2417,6 +2424,13 @@ public final class Settings {
          * @hide
          */
         public static final String KEY_HOME_ENABLED = "key_home_enabled";
+=======
+         * Navigation bars on the left side of the screen.
+         *
+         * @hide
+         */
+        public static final String NAVBAR_LEFT = "navigation_bar_left";
+>>>>>>> 449447b... Added option for a navbar for left handed people
 
         /**
         * Notification Power Widget - Custom Brightness Mode
@@ -2477,6 +2491,16 @@ public final class Settings {
          */
         public static final String STATUS_BAR_AM_PM = "status_bar_am_pm";
 
+	/**
+         * Display style of the day of the week before clock in status bar
+         * 0: Normal display
+         * 1: Small display
+         * 2: No display
+         * default: 2
+         * @hide
+         */
+        public static final String STATUS_BAR_WEEKDAY = "status_bar_weekday";
+
         /**
          * Statusbar transparency value
          * from 0% to 100%
@@ -2488,7 +2512,9 @@ public final class Settings {
          * Display style of the status bar battery information
          * 0: Display the stock battery information
          * 1: Display cm battery percentage implementation / dont show stock icon
-         * 2: Hide the battery information
+         * 2: Display cm circle battery implementation without percentage
+         * 3: Display cm circle battery implementation with percentage
+         * 4: Hide the battery information
          * default: 0
          * @hide
          */
@@ -2576,7 +2602,7 @@ public final class Settings {
 
         /**
          * Boolean value whether to link ringtone and notification volumes
-         * 
+         *
          * @hide
          */
         public static final String VOLUME_LINK_NOTIFICATION = "volume_link_notification";
@@ -2766,6 +2792,42 @@ public final class Settings {
          * @hide
          */
         public static final String STATUS_BAR_NOTIF_COUNT = "status_bar_notif_count";
+
+        /**
+         * Standard battery text color
+         * @hide
+         */
+        public static final String BATTERY_TEXT_COLOR_STOCK = "battery_text_color_stock";
+
+        /**
+         * Allow color changing on battery text
+         * @hide
+         */
+        public static final String BATTERY_TEXT_COLOR_ALLOWED = "battery_text_color_allowed";
+
+        /**
+         * Battery charging color
+         * @hide
+         */
+        public static final String BATTERY_TEXT_COLOR_CHARGE = "battery_text_color_charge";
+
+        /**
+         * Battery color when 16% or higher
+         * @hide
+         */
+        public static final String BATTERY_TEXT_COLOR_NORMAL = "battery_text_color_normal";
+
+        /**
+         * Battery color when 15% or lower
+         * @hide
+         */
+        public static final String BATTERY_TEXT_COLOR_LOW = "battery_text_color_low";
+
+        /**
+         * Show/Hide battery text %
+         * @hide
+         */
+        public static final String BATTERY_TEXT = "battery_text";
 
         /**
          * Whether System profiles are enabled

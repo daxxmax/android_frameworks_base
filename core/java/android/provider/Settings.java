@@ -2425,6 +2425,13 @@ public final class Settings {
         public static final String KEY_HOME_ENABLED = "key_home_enabled";
 
         /**
+         * Navigation bars on the left side of the screen.
+         *
+         * @hide
+         */
+        public static final String NAVBAR_LEFT = "navigation_bar_left";
+
+        /**
         * Notification Power Widget - Custom Brightness Mode
         * @hide
         */
