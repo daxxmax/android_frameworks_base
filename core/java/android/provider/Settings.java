@@ -2378,6 +2378,13 @@ public final class Settings {
         public static final String NAV_BAR_STATUS = "nav_bar_status";
 
         /**
+         * Navigation bar transparency value
+         * from 0% to 100%
+         * @hide
+         */
+        public static final String NAV_BAR_TRANSPARENCY = "nav_bar_transparency";
+
+        /**
          * Navigation bar, separate menu button in TabUI, whether to show or hide
          * @hide
          */
@@ -2469,6 +2476,13 @@ public final class Settings {
          * @hide
          */
         public static final String STATUS_BAR_AM_PM = "status_bar_am_pm";
+
+        /**
+         * Statusbar transparency value
+         * from 0% to 100%
+         * @hide
+         */
+        public static final String STATUS_BAR_TRANSPARENCY = "status_bar_transparency";
 
         /**
          * Display style of the status bar battery information
