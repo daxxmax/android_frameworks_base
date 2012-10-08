@@ -2756,6 +2756,12 @@ public final class Settings {
         public static final String LOCKSCREEN_CLOCK_ALIGN = "lockscreen_clock_align";
 
         /**
+         * custom lockscreen text color
+         * @hide
+         */
+        public static final String LOCKSCREEN_CUSTOM_TEXT_COLOR = "lockscreen_custom_text_color";
+
+        /**
          * Show the pending notification counts as overlays on the status bar
          * @hide
          */

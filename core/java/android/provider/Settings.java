@@ -2754,6 +2754,42 @@ public final class Settings {
         public static final String STATUS_BAR_NOTIF_COUNT = "status_bar_notif_count";
 
         /**
+         * Standard battery text color
+         * @hide
+         */
+        public static final String BATTERY_TEXT_COLOR_STOCK = "battery_text_color_stock";
+
+        /**
+         * Allow color changing on battery text
+         * @hide
+         */
+        public static final String BATTERY_TEXT_COLOR_ALLOWED = "battery_text_color_allowed";
+
+        /**
+         * Battery charging color
+         * @hide
+         */
+        public static final String BATTERY_TEXT_COLOR_CHARGE = "battery_text_color_charge";
+
+        /**
+         * Battery color when 16% or higher
+         * @hide
+         */
+        public static final String BATTERY_TEXT_COLOR_NORMAL = "battery_text_color_normal";
+
+        /**
+         * Battery color when 15% or lower
+         * @hide
+         */
+        public static final String BATTERY_TEXT_COLOR_LOW = "battery_text_color_low";
+
+        /**
+         * Show/Hide battery text %
+         * @hide
+         */
+        public static final String BATTERY_TEXT = "battery_text";
+
+        /**
          * Whether System profiles are enabled
          * @hide
          */
