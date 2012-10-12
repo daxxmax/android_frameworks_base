@@ -153,7 +153,7 @@
                 android:text="@string/status_bar_settings_settings_button"
                 />
 
-            <com.android.systemui.statusbar.policy.CmCircleBattery
+            <com.android.systemui.statusbar.policy.CircleBattery
                 android:id="@+id/panel_circle_battery"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

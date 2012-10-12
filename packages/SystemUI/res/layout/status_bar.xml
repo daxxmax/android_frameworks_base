@@ -130,7 +130,7 @@
                 android:gravity="center_vertical|bottom"
                 android:paddingLeft="4dip"
                 />
-            <com.android.systemui.statusbar.policy.CmCircleBattery
+            <com.android.systemui.statusbar.policy.CircleBattery
                 android:id="@+id/circle_battery"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

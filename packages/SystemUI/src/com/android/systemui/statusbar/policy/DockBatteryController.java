@@ -45,7 +45,7 @@ public class DockBatteryController extends BroadcastReceiver {
     /***
      * BATTERY_STYLE_CIRCLE* cannot be handled in this controller, since we cannot get views from
      * statusbar here. Yet it is listed for completion and not to confuse at future updates
-     * See CmCircleBattery.java for more info
+     * See CircleBattery.java for more info
      */
     private static final int BATTERY_STYLE_CIRCLE         = 2;
     private static final int BATTERY_STYLE_CIRCLE_PERCENT = 3;

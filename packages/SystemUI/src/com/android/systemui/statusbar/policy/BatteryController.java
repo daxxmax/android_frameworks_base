@@ -46,9 +46,9 @@ public class BatteryController extends BroadcastReceiver {
     /***
      * BATTERY_STYLE_CIRCLE* cannot be handled in this controller, since we cannot get views from
      * statusbar here. Yet it is listed for completion and not to confuse at future updates
-     * See CmCircleBattery.java for more info
+     * See CircleBattery.java for more info
      *
-     * set to public to be reused by CmCircleBattery
+     * set to public to be reused by CircleBattery
      */
     public  static final int BATTERY_STYLE_CIRCLE         = 2;
     public  static final int BATTERY_STYLE_CIRCLE_PERCENT = 3;
