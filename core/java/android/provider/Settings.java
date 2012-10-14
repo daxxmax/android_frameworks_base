@@ -2905,18 +2905,6 @@ public final class Settings {
          */
         public static final String UI_FORCE_OVERFLOW_BUTTON = "ui_force_overflow_button";
 
-        /**
-         *
-         * @hide
-         */
-        public static final String SYSTEMUI_NAVBAR_COLOR = "systemui_navbar_color";
-
-        /**
-         *
-         * @hide
-         */
-        public static final int SYSTEMUI_NAVBAR_COLOR_DEF = 0xFF000000;
-
          /**
           * Volume keys control cursor in text fields (default is 0)
           * 0 - Disabled
@@ -3246,7 +3234,6 @@ public final class Settings {
         @Deprecated
         public static final String WIFI_WATCHDOG_PING_TIMEOUT_MS =
             Secure.WIFI_WATCHDOG_PING_TIMEOUT_MS;
-
     }
 
     /**
